@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    list-style: none;
+    
 }
 :root{
     --bg-color: #3a3938;
@@ -47,6 +47,7 @@ header{
 }
 .navbar{
     display: flex;
+    list-style: none;
 }
 .navbar a{
     color: var(--text-color);
@@ -93,8 +94,36 @@ color: var(--main-color);
     color: var(--text-color);
     font-size: 1.9rem;
     font-weight: 500;
-    margin: 300px 500px;
+    margin: 100px 0px 0px 700px ;
     transition: all .50s ease;
     position: center;
     }
-    
+.pictureofyourself{
+    position: absolute;
+    margin: 10px;
+}
+.myself{
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 30px 0px 0px 400px ;
+    transition: all .50s ease;
+    position: center;
+    }
+.hobbies{
+        color: var(--text-color);
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 70px 0px 0px 100px ;
+        transition: all .50s ease;
+        position: center;
+        
+}
+.hobbypicture{
+    margin: -250px 0px 0px 370px ;
+    transition: all .50s ease;
+}
+.hobbypicture2{
+    margin: 0px 0px 0px 0px;
+    transition: all .50s ease;
+}
