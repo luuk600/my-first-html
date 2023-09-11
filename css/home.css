@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
+    max-width: none;
 }
 :root{
     --bg-color: #3a3938;
@@ -89,13 +90,16 @@ color: var(--main-color);
         margin: 0px 20px;
     }
 }
+
 .hometextbig{
-    color: var(--text-color);
-    font-size: 1.9rem;
+    color: #2062b8;
+    font-size: 3rem;
+    width: 60vh;
     font-weight: 500;
-    margin: 300px 500px;
+    margin: 200px auto 0px auto;
     transition: all .50s ease;
     }
 .hometextbig span{
     color: #2062b8;
 }
+html, body {margin: 0; height: 100%; overflow: hidden}

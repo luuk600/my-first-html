@@ -42,7 +42,7 @@ header{
 }
 .logo span{
     color: var(--text-color);
-    font-size: 1.7rem;
+    font-size: 2.6em;
     font-weight: 500;
 }
 .navbar{
@@ -51,7 +51,7 @@ header{
 }
 .navbar a{
     color: var(--text-color);
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: 500;
     padding: 5px 0;
     margin: 0px 30px;
@@ -68,7 +68,7 @@ header{
 }
 .main a{
     color: var(--text-color);
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: 500;
     padding: 5px 0;
     margin: 0px 5px;
@@ -104,7 +104,7 @@ color: var(--main-color);
 }
 .myself{
     color: var(--text-color);
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     font-weight: 500;
     margin: 30px 0px 0px 400px ;
     transition: all .50s ease;
@@ -112,18 +112,21 @@ color: var(--main-color);
     }
 .hobbies{
         color: var(--text-color);
-        font-size: 2rem;
+        font-size: 2.3rem;
         font-weight: 500;
         margin: 70px 0px 0px 100px ;
         transition: all .50s ease;
-        position: center;
-        
+        position: center;   
 }
 .hobbypicture{
     margin: -250px 0px 0px 370px ;
     transition: all .50s ease;
 }
 .hobbypicture2{
-    margin: 0px 0px 0px 0px;
+    margin: -250px 0px 0px 950px;
+    transition: all .50s ease;
+}
+.hobbypicture3{
+    margin: -250px 0px 0px 1200px;
     transition: all .50s ease;
 }
