@@ -1,24 +1,31 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
-    max-width: none;
 }
-:root{
+
+:root {
     --bg-color: #3a3938;
     --text-color: #fff;
     --main-color: #2062b8;
 }
-body{
+
+body {
     min-height: 100vh;
     background: var(--bg-color);
     color: var(--text-color);
 
-    }
-header{
+}
+
+.screen {
+    width: 1920px;
+    margin: 10vh auto 0px auto;
+}
+
+header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -28,78 +35,98 @@ header{
     align-items: center;
     justify-content: space-between;
     background: rgb(0, 138, 138);
-    padding: 28px 12%;
+    padding: 20px 12%;
     transition: all 2.50s ease;
 
 }
-.logo{
+
+.logo {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
-.logo i{
+
+.logo i {
     color: var(--main-color);
-    font-size: 28px;
+    font-size: 100%;
     margin-right: 3px;
 }
-.logo span{
+
+.logo span {
     color: var(--text-color);
     font-size: 1.7rem;
     font-weight: 500;
 }
-.navbar{
+
+.navbar {
     display: flex;
 }
-.navbar a{
+
+.navbar a {
     color: var(--text-color);
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: 500;
     padding: 5px 0;
     margin: 0px 30px;
     transition: all .50s ease;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     color: var(--main-color);
 }
-.navbar span{
+
+.navbar span {
     color: var(--main-color);
 }
-.main{
+
+.main {
     display: flex;
 }
-.main a{
+
+.main a {
     color: var(--text-color);
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: 500;
     padding: 5px 0;
     margin: 0px 5px;
     transition: all .50s ease;
 }
-.main a:hover{
+
+.main a:hover {
     color: var(--main-color);
 }
-.main span{
-color: var(--main-color);
+
+.main span {
+    color: var(--main-color);
 }
-@media (max-width: 1280px){
-    header{
+
+@media (max-width: 1280px) {
+    header {
         padding: 14px 2%;
         transition: .2s;
     }
-    .navbar a{
+
+    .navbar a {
         padding: 5px 0;
         margin: 0px 20px;
     }
 }
 
-.hometextbig{
+.hometextbig {
     color: #2062b8;
     font-size: 3rem;
     width: 60vh;
     font-weight: 500;
     margin: 200px auto 0px auto;
     transition: all .50s ease;
-    }
-.hometextbig span{
+}
+
+.hometextbig span {
     color: #2062b8;
 }
-html, body {margin: 0; height: 100%; overflow: hidden}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
