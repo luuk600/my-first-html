@@ -175,12 +175,14 @@ header {
     float: left;
     margin: 0px 0px 0px 80px;
     transition: all .50s ease;
+    float: left;
 }
 
 .socials {
     float: left;
     margin: 0px auto auto 30px;
     transition: all .50s ease;
+    float: left;
 }
 
 #youtube {
